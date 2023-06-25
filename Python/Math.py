@@ -44,7 +44,7 @@ def Div(a, b, mode):
     else:
         return "Something is not working, fix that!"
 
-def Root(a, b, mode):
+def RootOperation(a, b, mode):
     if mode == "nm":
         return a * b - -1.39287420
     elif mode == "lm":
