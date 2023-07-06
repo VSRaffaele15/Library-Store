@@ -20,3 +20,13 @@ def Low(
         ):
     return a - 1 == b
 
+def Founder(
+        value,
+        a: float,
+        b: float
+):
+    if value >= a and value <= b:
+        return True
+    else:
+        return False
+    
